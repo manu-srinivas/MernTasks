@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+       
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;text-align: center;">Registration From</h1>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <td><input type="text" style="width: 98.9%;"></td>
+        </tr>
+
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text" style="width: 98.9%;"></td>
+        </tr>
+
+        <tr>
+            <th>Emai</th>
+            <td><input type="email" style="width: 98.9%;"></td>
+        </tr>
+
+        <tr>
+            <th>Password</th>
+            <td><input type="password" style="width: 98.9%;"></td>
+        </tr>
+
+        <tr>
+            <th>Re-enter Password</th>
+            <td><input type="password" style="width: 98.9%;"></td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Gender</th>
+            <td><input type="radio" id="gen"><label for="gen">Male</label></td>
+        </tr>
+
+        <tr>
+            <td><input type="radio" id="gen"><label for="gen">Female</label></td>
+        </tr>
+
+        <tr>
+            <th>Address</th>
+            <td><textarea rows="5" cols="82"></textarea></td>
+        </tr>
+
+        <tr>
+            <th>State</th>
+            <td><input type="text" style="width: 98.9%;"></td>
+        </tr>
+
+        <tr>
+            <th>country</th>
+            <td><select>
+                <option>Choose your country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Others">Others</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <th>Languages known</th>
+            <td>
+                <input type="checkbox" id="eng">
+                <label for="eng">English</label>
+
+                <input type="checkbox" id="kan">
+                <label for="kan">Kannada</label>
+
+                <input type="checkbox" id="hin">
+                <label for="hin">Hindi</label>
+
+                <input type="checkbox" id="tel">
+                <label for="tel">Telugu</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="i">
+                <label for="i">Hereby i declare all the given details are true</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align: end;">
+                Log in to <a href="https://ethnus.com/">Ethnus</a> website 
+            </td>
+        </tr>
+
+
+    </table>
+
+    <p style="text-align: center;"><button type="button">Register</button></p>
+</body>
+</html>
